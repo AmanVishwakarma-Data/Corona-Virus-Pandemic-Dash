@@ -5,51 +5,73 @@ Designed to practice and revise Python logic while building real-world analytica
 
 ---
 
-## ✨ Features
+## 🚀 Project Overview
 
-- 📌 **Total, Active, Recovered & Death Cases** summary cards
-- 🧴 **Commodities analysis** (Mask, Sanitizer, Oxygen etc.)
-- 📊 **State-wise bar chart filtering** using dropdown
-- 🥧 **Zone classification pie chart**
-- ⚡ Visuals powered by **Plotly Express & Graph Objects**
-- 🎨 Styled using **Bootstrap 5**
+This dashboard provides key analytics like:
 
----
-
-## 🧠 Concepts Practiced
-
-- `pandas` for data loading and filtering
-- `numpy` for numerical operations
-- `Dash callbacks` for interactive UI
-- `Plotly` for graphs and charts
-- Project structuring using `git` and `.gitignore`
+✔ Total dataset size (rows count)  
+✔ Confirmed, Active, Recovered & Death cases  
+✔ State-wise comparison using Bar charts  
+✔ Commodity trend visualization (Mask, Sanitizer, Oxygen etc.)  
+✔ Interactive dropdown-controlled graphs  
+✔ Donut-style Pie chart using Plotly Express  
 
 ---
 
-## 📂 Project Structure
-Corona-Virus-Pandemic-Dash/
-│-- app.py
-│-- state_wise_daily.csv
-│-- assets/
-│-- .gitignore
-│-- requirements.txt
-│-- README.md
+## 🧠 How It Works (Simple Logic)
+
+1. Public COVID-19 daily report is loaded using **Pandas**
+2. Data is filtered dynamically via **Dash Callbacks**
+3. Visual insights are rendered using **Plotly Express + Graph Objects**
+4. UI styling is handled using **Bootstrap CSS CDN**
 
 ---
 
+## 🛠️ Tech Stack
+
+```
+Python
+Pandas
+NumPy
+Dash
+Plotly Express
+Plotly Graph Objects
+Bootstrap CSS (CDN) 
+```
 
 ---
 
-## 🚀 How to Run Locally
+## 📁 Folder Structure
 
-```bash
-# Clone the repo
-git clone <your_repo_link>
+```
+CORONA_VIRUS_PANDEMIC/
+├── app.py
+├── state_wise_daily.csv
+├── assets/
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
-# Install dependencies
-pip install -r requirements.txt
+---
 
-# Run the app
-python app.py
+## ⚙️ Installation & Run
+1. Clone this repository:
+
+   ```powershell
+   git clone https://github.com/AmanVishwakarma-Data/Corona-Virus-Pandemic-Dash.git
+   ```
+
+2. Install dependencies:
+
+   ```powershell
+   pip install -r requirements.txt
+   ```
+
+3. Run the Dash app:
+
+   ```powershell
+   python app.py
+   ```
 
 ---
